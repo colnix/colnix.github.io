@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Clear';
+  src: url('Font/Print-Clearly/PrintClearly.otf');
+}
+@font-face{
+  font-family: 'Sketch';
+  src: url('Font/NeoRetroDraw/NEORD___.ttf');
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-family: Clear;
+  color: black;
+  background: #FFFFEF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+p{
+  font-size: 200%;
+  padding: 3%;
+}
+span{
+  color: red;
+}
+strong{
+  color: black;
+}
+#info-box{
+  position: relative;
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+#menu{
+  margin: 1%;
+  font-size: 240%;
+}
+#header{
+  font-size: 500%;
+  font-family: Sketch;
+}
+#info{
+  font-size: 150%; 
+}
+#Kyubey{
+  color: black;
+  font-size: 70%;
+}
+#sidr{
+  font-family: Clear;
+  font-size: 200%;
+}
