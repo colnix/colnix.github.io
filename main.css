@@ -13,7 +13,6 @@
 html{
   font-family: Clear;
   color: black;
-  background: #F7F7DC;
 }
 a{
   color: black;
@@ -44,7 +43,7 @@ strong{
   font-family: Sketch;
 }
 #info{
-  font-size: 150%; 
+  font-size: 150%;
 }
 #Kyubey{
   color: black;
