@@ -99,17 +99,6 @@ hr{
 	display: block;
 	height: auto;
 }
-#credits{
-	margin-left: 2%;
-	clear: left;
-	font-size: 100%;
-	display: inline-block;
-	float: left;
-	height: auto;
-}
-#heart{
-	color: red;
-}
 @media all and (max-width: 899px){
 	p{
 		letter-spacing: 0px;
