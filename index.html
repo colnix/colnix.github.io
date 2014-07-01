@@ -1,55 +1,53 @@
 <html>
+	<!-- Website developed by colnix for colnix -->
+	<!-- This site and all of it's content(unless specified otherwise) are mine and are protected under intellectual property -->
+	
+	<!-- BTW I already know my html is ugly and messy :) -->
+	<!-- This website is made to imitate a operating system -->
 	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-
-		<title>Colnix</title>
-
+		<meta charset = "utf-8"/>
+		<meta name = "viewport" content = "width=device-width; initial-scale = 1.0">
+		<meta name = "description" content = "The personal website of this kid named colnix.">
+		<meta name = "author" content = "colnix">
+		<title>colnix</title>
 		<link rel = "stylesheet" type = "text/css" href = "main.css">
-		<link rel = "stylesheet" href="sidr/stylesheets/jquery.sidr.light.css">
-
-		<script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src = "sidr/jquery.sidr.min.js"></script>
-		
-		<noscript>
-				You need JavaScript enabled to view this page.
-		</noscript>
+		<link rel = "stylesheet" type = "text/css" href = "animate.css">
+		<link rel = "stylesheet" type = "text/css" href = "fonts.css">
 	</head>
 	<body>
-		<a id = "sidr" href = "#menu">&#9776;</a>
-		<div id="sidr">
-			<ul>
-				<li><a href = "projects.html">Projects</a></li>
-				<li><a href = "faq.html">FAQ</a></li>
-				<li><a href = "http://www.github.com/colnix">Github</a></li>
-				<li><a href = "http://www.twitter.com/colnix_">Twitter</a></li>
-				<li><a href = "http://www.hummingbird.me/users/colnix">Hummingbird</a></li>
-				<li><a>Email</a></li>
-			</ul>
+		<div id = "nav_bar">
+			<a class = "nav_bar_items" id = "easter_egg">&#10147;</a>
+			<a href = "#" class = "nav_bar_items" id = "colnix_header">Colnix</a>
 		</div>
-		<script>
-			$(document).ready(function() {
-					$('#menu').sidr();
-			});
-		</script>
-		<center>
-			<div id = "info-box">
-				<div id = "header" >Colnix</div>
-				<div id = "info">
-					<p>
-						~An <a href = "http://bit.ly/mSzi">otaku</a>
-						obsessed with anime and manga pertaining to magical girls, psychological horror and
-						anything in-between, can also occasionally be an annoying weeaboo. Addicted to web design and programming hoping
-						to one day actually make something useful.
-						<br/>
-						<span id = "Kyubey" title = "Kyubey!">／人◕ ‿‿ ◕人＼ </span>
-					</p>
-				</div>
-				<p>
-					Hosted with <span>Love</span> by
-					<a href = "http://pages.github.com"><strong title = "Click Here">GitHub</strong></a>
-				</p>
+		<div id = "bio_window" class = "animated fadeInDown window">
+			<div class = "window_bar">&#10799; &#95; &#8414;</div>
+			<div class = "window_content">
+				<p id = 'bio'>I'm a developer from atlantic Canada with a passion for the web and all of it’s workings. I held a mouse before a crayon and had a laptop before a bike. In May of 2013 I purchased a Macbook and with the help of codeacademy.com learned python and HTML/CSS. Now experimenting with PHP and Ruby hoping to one make a job out of my passion for code and creating beautiful things. This is where I will collect all of my projects and web apps in one centralized page.</p>
 			</div>
-		</center>
+		</div>
+		<div id = 'projects_window' class = 'animated fadeInDown window'>
+			<div class = 'window_bar' title = 'Projects'>&#10799; &#95; &#8414;</div>
+			<div id = 'projects_window_content' class = "window_content">
+				<div class = "project_window_item" >
+					<a href = "lostandalone.html">Alone in a Crowd</a>
+					<p>A text based horror game written in Javascript with JQuery</p>
+				</div>
+				<hr>
+			</div>
+		</div>
+		<div id = "links_window" class = 'animated fadeInDown window'>
+			<div class = "window_bar">&#10799; &#95; &#8414;</div>
+			<div id = "links_window_content" class = "window_content">
+				<a href = "http://github.com/colnix"><div class = "link">Github</div></a>
+				<a href = "http://jsfiddle.net/user/colnix/"><div class = "link">JsFiddle</div></a>
+				<a href = "http://twitter.com/colnix_"><div class = "link">Twitter</div></a>
+				<a href = "http://colnix.tumblr.com"><div class = "link">Tumblr</div></a>
+			</div>
+		</div>
+		<div id = "credits">
+			<p>
+				&#9999; with <span id = "heart">&#9829;</span> by colnix
+			</p>
+		</div>
 	</body>
 </html>
