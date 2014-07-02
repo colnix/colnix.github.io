@@ -8,7 +8,7 @@ a{
 	
 }
 p{
-	font-family: Clear;
+	font-family: 'Raleway', sans-serif;
 	font-size: 200%;
 	margin-left: 2%;
 	letter-spacing: 1px;
@@ -33,7 +33,7 @@ hr{
 	margin: 2.5%;
 	margin-left: 4%;
 	background-color: #66FFCC;
-	font-family: Exo;
+	font-family: 'Inconsolata';
 	font-size: 140%;
 	padding: 1%;
 	box-shadow: 4px 8px 0px 0px #52CCA3;
@@ -73,7 +73,7 @@ hr{
 	margin-right: 2%;
 }
 #projects_window_content{
-	font-family: Exo;
+	font-family: 'Inconsolata';
 	overflow: auto;
 	height: 96%;
 }
