@@ -9,7 +9,7 @@ a{
 }
 p{
 	font-family: 'Raleway', sans-serif;
-	font-size: 140%;
+	font-size: 120%;
 	margin-left: 2%;
 	letter-spacing: 1px;
 	line-height: 45px;
@@ -57,7 +57,7 @@ hr{
 	width: 45%;
 	display: inline-block;
 	width: 90%;
-	font-size: 140%;
+	font-size: inherit;
 }
 #bio_window{
 	margin-top: 2%;
