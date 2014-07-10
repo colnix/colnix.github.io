@@ -1,3 +1,3 @@
-The landing page for colnix
+The landing page of colnix
 <br>
 Made with :heart: and CSS
