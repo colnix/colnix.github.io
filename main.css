@@ -82,20 +82,20 @@ hr { color: lightgray }
 }
 @media all and (max-width: 899px) { 
     p {
-        letter-spacing: 0px;
+        letter-spacing: 2px;
         line-height: 30px;
         margin-left: 7%;
-        font-size: 160%;
+        font-size: 100%;
     }
     #bio {
-        font-size: 120%;
-        : ;
+        font-size: 100%;
     }
     #bio_window {
         display: block;
         width: 80%;
         margin-left: 7%;
         margin-top: 3%;
+        padding: 2%;
     }
     #projects_window {
         float: left;
@@ -104,10 +104,12 @@ hr { color: lightgray }
         height: 50%;
         margin-left: 7%;
         margin-top: 3%;
+        padding: 2%;
     }
     #links_window {
         width: 80%;
         margin-left: 7%;
         margin-top: 3%;
+        padding: 2%;
     }
 }
