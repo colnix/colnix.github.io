@@ -69,7 +69,7 @@ hr { color: lightgray }
 #projects_window_content {
     font-family: 'Inconsolata';
     overflow: auto;
-    height: 96%;
+    height: 94%;
 }
 #links_window {
     float: left;
@@ -104,9 +104,17 @@ hr { color: lightgray }
         margin-left: 7%;
         margin-top: 5%;
     }
+    #projects_window_content {
+        height: 90%;
+    }
     #links_window {
         width: 80%;
         margin-left: 7%;
         margin-top: 5%;
+    }
+}
+@media all and (max-height: 600px) {
+    #projects_window_content {
+        height: 82%;
     }
 }
