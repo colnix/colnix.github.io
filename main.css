@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+html {
+    background-image: url(geometry.png);
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -19,6 +22,7 @@ hr { color: lightgray }
     display: block;
     text-align: left;
     padding: 2%;
+    background-color: white;
 }
 .project_window_item a { font-size: 200% }
 .project_window_item p { font-size: 120% }
@@ -36,6 +40,7 @@ hr { color: lightgray }
     height: auto;
     border: 6px solid #66FFCC;
     box-shadow: 8px 10px 0px 0px lightgray;
+    background-color: white;
 }
 .window_bar {
     height: 25px;
