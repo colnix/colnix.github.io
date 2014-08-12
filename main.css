@@ -84,7 +84,6 @@ hr { color: lightgray }
     width: 50%;
     display: block;
     height: auto;
-    background-color: inherit;
 }
 @media all and (max-width: 899px) { 
     p {
