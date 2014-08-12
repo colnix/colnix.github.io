@@ -17,12 +17,12 @@ p {
     line-height: 40px;
     font-weight: 300;
 }
-hr { color: lightgray }
 .project_window_item {
     display: block;
     text-align: left;
     padding: 2%;
     background-color: #f9fcff;
+    border-bottom: solid 1px #e5e5e5;
 }
 .project_window_item a { font-size: 200% }
 .project_window_item p { font-size: 120% }
