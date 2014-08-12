@@ -22,7 +22,7 @@ hr { color: lightgray }
     display: block;
     text-align: left;
     padding: 2%;
-    background-color: white;
+    background-color: #f9fcff;
 }
 .project_window_item a { font-size: 200% }
 .project_window_item p { font-size: 120% }
@@ -40,7 +40,7 @@ hr { color: lightgray }
     height: auto;
     border: 6px solid #66FFCC;
     box-shadow: 8px 10px 0px 0px lightgray;
-    background-color: white;
+    background-color: #f9fcff;
 }
 .window_bar {
     height: 25px;
@@ -84,6 +84,7 @@ hr { color: lightgray }
     width: 50%;
     display: block;
     height: auto;
+    background-color: inherit;
 }
 @media all and (max-width: 899px) { 
     p {
